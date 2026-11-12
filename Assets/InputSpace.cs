@@ -25,8 +25,8 @@ public class InputSpace : MonoBehaviour
 
         if (follow)
         {
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Vector3.back * 10;
+            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
- 
+
     }
 }
